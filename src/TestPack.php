@@ -3,7 +3,7 @@ namespace Brespit\TestPack;
 
 class TestPack
 {
-
+//test update
 	protected $txt;
 
 	public function __construct($txt)
@@ -20,4 +20,5 @@ class TestPack
 	{
 		return strtolower($this->txt);
 	}
+
 }
