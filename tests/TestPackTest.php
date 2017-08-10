@@ -11,4 +11,11 @@ class TestPackTest extends PHPUnit_Framework_TestCase
         $test = new TestPack($txt);
         $this->assertSame('FLAVIO', $test->upperCase());
     }
+
+    public function test_package_lowercase()
+    {
+        $txt = "FLAVIO";
+        $test = new TestPack($txt);
+        $this->assertSame('flavio', $test->lowerCase());
+    }
 }

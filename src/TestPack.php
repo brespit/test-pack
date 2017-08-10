@@ -16,4 +16,8 @@ class TestPack
 		return strtoupper($this->txt);
 	}
 
+	public function lowerCase()
+	{
+		return strtolower($this->txt);
+	}
 }
