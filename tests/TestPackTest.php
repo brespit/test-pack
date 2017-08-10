@@ -1,4 +1,5 @@
 <?php
+
 use Brespit\TestPack\TestPack;
 
 class TestPackTest extends PHPUnit_Framework_TestCase
