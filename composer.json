@@ -1,0 +1,22 @@
+{
+    "name": "brespit/test-pack",
+    "description": "this a demo Package, please DO NOT USE it in production",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Flavio Leite",
+            "email": "flaviorcleite@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Brespit\\TestPack\\": "src/"
+        }
+    }
+}
